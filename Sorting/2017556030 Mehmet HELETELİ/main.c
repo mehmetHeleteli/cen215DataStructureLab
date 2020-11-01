@@ -352,7 +352,6 @@ int main(int argc, char const* argv[]) {
     char name2[] =  "mehmet heleteli" ;
     int numSize2 = sizeof(num2) / sizeof(num2[0]);
     int charSize2 = strlen(name2);
-
     mergeSort(num2, 0, numSize2 - 1);
     t = clock() - t;
     printf("\nMerge sorted array is \n");
@@ -378,8 +377,8 @@ int main(int argc, char const* argv[]) {
     printf("%s\n", name3);
     printf("Bubble char sort time: %f\n", ((double)t) / CLOCKS_PER_SEC);
 	
-	//QuickSort
-	int num4[] = { 2,0,1,7,5,5,6,0,3,0 };
+    //QuickSort
+    int num4[] = { 2,0,1,7,5,5,6,0,3,0 };
     char name4[] =  "mehmet heleteli" ;
     int numSize4 = sizeof(num4) / sizeof(num4[0]);
     int charSize4 = strlen(name4);
